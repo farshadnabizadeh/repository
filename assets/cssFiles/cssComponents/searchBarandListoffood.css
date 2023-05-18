@@ -94,3 +94,57 @@
     text-align: left;
     letter-spacing: 4px;
 }
+
+.breakfastContentContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.bigBoxContainer {
+    width: 85%;
+    margin-top: 40px;
+    border-radius: 8px;
+    display: flex;
+    -webkit-box-shadow: -1px 5px 23px -9px #000000;
+    box-shadow: -1px 5px 23px -9px #000000;
+}
+
+.imageWrapper {
+    width: 35%;
+    padding-top: 10px;
+}
+
+.imgBox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentBox {
+    width: 65%;
+}
+
+.contentHeader {
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: left;
+    padding-top: 10px;
+    color: #000000;
+}
+
+.contentBody {
+    font-family: "Poppins";
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    color: #666;
+
+}
