@@ -1,29 +1,33 @@
-.searchBarandListoffoodContainer{
+.searchBarandListoffoodContainer {
     width: 100%;
     position: relative;
 }
-.searchBarBox{
+
+.searchBarBox {
     width: 100%;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 9000;
 }
-.listoffoodsBox{
+
+.listoffoodsBox {
     width: 100%;
     position: absolute;
     top: 20px;
     left: 0;
     z-index: 8000;
 }
-.inputBoxandLogoWrapper{
+
+.inputBoxandLogoWrapper {
     width: 100%;
     height: 50px;
     display: flex;
     justify-content: center;
     margin-top: 10px;
 }
-.inputBoxandLogoBox{
+
+.inputBoxandLogoBox {
     width: 100%;
     height: 100%;
     margin: 0 20px;
@@ -32,8 +36,34 @@
     background-color: #efefef;
     display: flex;
 }
-.LogBox{
-    width: 20%;
+
+.LogBox {
+    width: 15%;
     height: 100%;
-    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.InputBox {
+    width: 85%;
+    height: 100%;
+}
+
+.InputBox>input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+}
+
+.InputBox>input::placeholder {
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+}
+.InputBox>input:focus{
+    outline: none;
 }
