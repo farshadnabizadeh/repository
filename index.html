@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/cssFiles/main.css" />
+    <title>PişiPişiMenu</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Section : Close Button and Logo  -->
+        <div class="logoSection">
+            <div class="close-btn-box">
+                <img width="15" height="15" src="assets/images/close.png" />
+            </div>
+            <div class="logo-box">
+                <img width="65" height="89" src="assets/images/logo.png" />
+            </div>
+        </div>
+        <!-- Section : Slider -->
+        <div class="sliderSection">
+            <ul id="changingStatusIndex">
+                <li id="1" onclick="changingStatus(this)" class="sliderBox">
+                    <div class="imageBox"><img class="fit" src="assets/images/foods/kahvalti.png" /></div>
+                    <div class="foodTitle">Kahvaltı</div>
+                    <div></div>
+                </li>
+                <li id="2" onclick="changingStatus(this)" class="sliderBox" id="2">
+                    <div class="imageBox"><img class="fit" src="assets/images/foods/gozlemeler.png" /></div>
+                    <div class="foodTitle">Gözlemeler</div>
+                    <div></div>
+                </li>
+                <li id="3" onclick="changingStatus(this)" class="sliderBox">
+                    <div class="imageBox"><img class="fit" src="assets/images/foods/egges.png" /></div>
+                    <div class="foodTitle">Yumurtalar</div>
+                    <div></div>
+                </li>
+                <li id="4" onclick="changingStatus(this)" class="sliderBox">
+                    <div class="imageBox"><img class="fit" src="assets/images/foods/kahvalti.png" /></div>
+                    <div class="foodTitle">Kahvaltı</div>
+                    <div></div>
+                </li>
+                <li id="5" onclick="changingStatus(this)" class="sliderBox">
+                    <div class="imageBox"><img class="fit" src="assets/images/foods/gozlemeler.png" /></div>
+                    <div class="foodTitle">Gözlemeler</div>
+                    <div></div>
+                </li>
+                <li id="6" onclick="changingStatus(this)" class="sliderBox">
+                    <div class="imageBox"><img class="fit" src="assets/images/foods/egges.png" /></div>
+                    <div class="foodTitle">Yumurtalar</div>
+                    <div></div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script type="text/javascript" src="assets/javascriptFiles/jquery-3.7.0.min.js"></script>
+    <script type="text/javascript" src="assets/javascriptFiles/main.js"></script>
+</body>
+
+</html>

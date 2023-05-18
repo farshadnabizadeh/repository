@@ -1,0 +1,46 @@
+.sliderSection {
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.sliderSection>ul {
+    width: 100%;
+    display: flex;
+    list-style: none;
+    padding: 0 15px;
+    overflow-x: scroll;
+}
+
+.sliderBox {
+    width: 126px;
+    margin: 0 10px;
+}
+
+.imageBox {
+    width: 110px;
+    height: 94px;
+    border-radius: 8px;
+}
+
+.foodTitle {
+    width: 100%;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 500;
+    color: #ab8c51;
+    margin: 10px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.fit {
+    width: 100%;
+    height: 100%;
+}
+
+.status {
+    width: 100%;
+    height: 2px;
+    background-color: #ab8c51;
+}
