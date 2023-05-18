@@ -1,6 +1,5 @@
 .sliderSection {
     width: 100%;
-    height: 200px;
     margin-top: 20px;
 }
 
@@ -18,8 +17,8 @@
 }
 
 .imageBox {
-    width: 110px;
-    height: 94px;
+    width: 100px;
+    height: 90px;
     border-radius: 8px;
 }
 

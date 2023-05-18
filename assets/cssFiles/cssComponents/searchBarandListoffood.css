@@ -1,0 +1,39 @@
+.searchBarandListoffoodContainer{
+    width: 100%;
+    position: relative;
+}
+.searchBarBox{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9000;
+}
+.listoffoodsBox{
+    width: 100%;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    z-index: 8000;
+}
+.inputBoxandLogoWrapper{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.inputBoxandLogoBox{
+    width: 100%;
+    height: 100%;
+    margin: 0 20px;
+    border-radius: 8px;
+    transform: translateX(3px);
+    background-color: #efefef;
+    display: flex;
+}
+.LogBox{
+    width: 20%;
+    height: 100%;
+    border: 1px solid red;
+}
