@@ -3,7 +3,7 @@ $(document).ready(function () {
 })
 
 const starter = () => {
-    $('#changingStatusIndex>li:nth-child(1)>div:nth-child(3)').addClass('status')
+    $('#changingStatusIndex>li:nth-child(1)>a>div:nth-child(3)').addClass('status')
 }
 function changingStatus(object) {
     $('#changingStatusIndex>li>div:nth-child(3)').removeClass('status')
